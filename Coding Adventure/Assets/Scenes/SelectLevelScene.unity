@@ -1802,7 +1802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3702884136049228305, guid: 8790f5475dc7010429a4b86b6dae403f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7714813
+      value: -3.794
       objectReference: {fileID: 0}
     - target: {fileID: 3702884136049228305, guid: 8790f5475dc7010429a4b86b6dae403f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2254,6 +2254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Parent 003 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7028853877186841686, guid: fe7a1c74587ac614790d0638b1873ba1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.026
+      objectReference: {fileID: 0}
     - target: {fileID: 8472427409972639769, guid: fe7a1c74587ac614790d0638b1873ba1, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2264,7 +2268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8472427409972639769, guid: fe7a1c74587ac614790d0638b1873ba1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7
+      value: -3.753
       objectReference: {fileID: 0}
     - target: {fileID: 8472427409972639769, guid: fe7a1c74587ac614790d0638b1873ba1, type: 3}
       propertyPath: m_LocalPosition.z
