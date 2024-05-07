@@ -796,15 +796,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "jump",
-                    "type": "Button",
-                    "id": "198511c7-b0c5-4dbe-91b4-b96abea2a565",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -983,17 +974,6 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "759bd0e2-3982-482a-8d77-6606c67932cc",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Generic XR Controller",
-                    "action": "jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
