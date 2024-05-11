@@ -36,7 +36,7 @@ public class MainCollisionController : MonoBehaviour
         if (LGValue == 0 && RGValue == 0)
         {
             transform.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
-            objectColor.material.color = Color.black;
+            objectColor.material.color = new Color(88 / 255f, 164 / 255f, 255 / 255f);
             GameObject newCube = Instantiate(Cube) as GameObject;
             newCube.transform.SetParent(this.gameObject.transform, false);
             newCube.transform.position = this.gameObject.transform.position + Vector3.up * 0.1f;
@@ -49,6 +49,6 @@ public class MainCollisionController : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         transform.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
-        objectColor.material.color = Color.black;
+        objectColor.material.color = new Color(88 / 255f, 164 / 255f, 255/255f);
     }
 }
